@@ -22,6 +22,11 @@ header {
     z-index: 1;
 }
 
+footer {
+    margin-top: 40px;
+    background-color: #1A1A1A;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -39,6 +44,10 @@ img {
     display: block;
 }
 
+h5 {
+    margin-right: 15px;
+}
+
 /*Header*/
 .navbar {
     min-height: 70px;
@@ -51,7 +60,7 @@ img {
     width: 50%;
 }
 
-.navbar-gender ul {
+.navbar-link ul {
     display: flex;
     gap: 10px;
 }
@@ -145,6 +154,11 @@ img {
     display: block;
 }
 
+/*footer*/
+.social {
+    text-align: right;
+}
+
 /*Utils*/
 .container {
     max-width: 1600px;
@@ -153,4 +167,8 @@ img {
 
 .border {
     border: 2px dashed black;
+}
+
+.mg-down {
+    margin-bottom: 5px;
 }
