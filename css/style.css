@@ -8,10 +8,67 @@
 /*Generics*/
 body {
     font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    padding: 0 5px;
+}
+
+
+
+/*Header*/
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>* {
+    padding: 10px 0;
+    width: 50%;
+}
+
+.navbar-gender ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
 }
 
 /*Utils*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
 }
