@@ -45,7 +45,7 @@ img {
 }
 
 h5 {
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 /*Header*/
@@ -154,9 +154,17 @@ h5 {
     display: block;
 }
 
+.heart:hover {
+    color: red;
+}
+
 /*footer*/
 .social {
     text-align: right;
+}
+
+.flex {
+    justify-content: right;
 }
 
 /*Utils*/
