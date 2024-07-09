@@ -81,9 +81,48 @@ img {
     width: 100%;
 }
 
+.card {
+    position: relative;
+}
+
+.card .cl-black {
+    color: black;
+}
+
+.bg-red {
+    background-color: #FF0000;
+    display: inline-block;
+}
+
+.bg-green {
+    background-color: #008000;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.tag {
+    padding: 3px 8px;
+    font-weight: 600;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
 /*Utils*/
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
