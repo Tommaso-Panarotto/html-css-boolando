@@ -9,6 +9,7 @@
 body {
     font-family: sans-serif;
     color: rgb(255, 255, 255);
+    padding-top: 120px;
 }
 
 header {
@@ -33,7 +34,9 @@ i {
     padding: 0 5px;
 }
 
-
+img {
+    display: block;
+}
 
 /*Header*/
 .navbar {
@@ -62,6 +65,22 @@ i {
     height: 30px;
 }
 
+/*Main*/
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    flex-basis: calc((100% / 3) - (40px / 3));
+}
+
+.photo-shop {
+    width: 100%;
+}
+
 /*Utils*/
 .container {
     max-width: 1200px;
@@ -71,4 +90,8 @@ i {
 .flex {
     display: flex;
     flex-direction: row;
+}
+
+.border {
+    border: 2px dashed black;
 }
