@@ -146,11 +146,11 @@ h5 {
     display: none;
 }
 
-.card:hover .photo-shop-base {
+.card-image:hover .photo-shop-base {
     display: none
 }
 
-.card:hover .photo-shop-particular {
+.card-image:hover .photo-shop-particular {
     display: block;
 }
 
