@@ -103,11 +103,11 @@ h5 {
 .bg-red {
     background-color: #FF0000;
     display: inline-block;
+    margin-right: 5px;
 }
 
 .bg-green {
     background-color: #008000;
-    margin-left: 5px;
     display: inline-block;
 }
 
